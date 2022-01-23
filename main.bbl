@@ -1,0 +1,87 @@
+\begin{thebibliography}{1}
+
+
+\bibitem{example_extended}
+\runsubsection{Example GMBH} \descript{Applied Scientist}
+\location{May \textbf{2018 } - Present | Berlin, DE} 
+\newblock  \vspace{-10pt}
+\begin{tightemize}
+\item Did 1
+\item Did 2
+\end{tightemize}
+
+
+
+\bibitem{zalando_extended}
+\runsubsection{Zalando SE} \descript{Applied Scientist}
+\location{May \textbf{2018 } - Present | Berlin, DE} 
+\newblock  \vspace{-5pt}
+\begin{tightemize}
+\item Develop ABC
+\item Develop XYZ
+\item Develop JKL
+\end{tightemize}
+
+
+\bibitem{cognitev}
+\runsubsection{Cognitev} \descript{Data Scientist}
+\location{Dec \textbf{2015 } - Nov \textbf{2017 } | Cairo, EG} 
+\newblock  \vspace{-10pt}
+\begin{tightemize}
+\item Design and build AdRelated.com, a semantic advertisement system. AdRelated models
+optimization and large scale parameters selection using FGLab.
+\item General Arabic articles classifier to IAB categories.
+\item Build Semantic Click Through Rate optimization module.
+\item In-Domain NER system: Design, data annotation system, bootstrapping, and implementation.
+\item Research and implementation of models and neural nets for: multilingual ads matching,
+multilingual words embedding, and embedding products.
+\item Design and build generic website crawlers and scrappers to be used as training data.
+\end{tightemize}
+
+
+\bibitem{cognitev_extended}
+\runsubsection{Cognitev} \descript{Data Scientist}
+\location{Dec \textbf{2015 } - Nov \textbf{2017 } | Cairo, EG} 
+\newblock  \vspace{-10pt}
+\begin{tightemize}
+\item Design and build AdRelated.com, a semantic advertisement system. AdRelated models
+optimization and large scale parameters selection using FGLab.
+\item General Arabic articles classifierto IAB categories.
+\item Build Semantic Click Through Rate optimization module.
+\item An A/B testing framework fortesting different Ads Recommendation engines.
+\item Develop plugin for query layer on Elasticsearch.
+\item In-Domain NER system: Design, data annotation system, bootstrapping, and implementation.
+\item Research and implementation of models and neural nets for: multilingual ads matching,
+multilingual words embedding, and embedding products.
+\item Design and build generic website crawlers and scrappers to be used as training data.
+\end{tightemize}
+
+
+\bibitem{dfki}
+\runsubsection{DFKI} \descript{Research Assistant In Semantic Text Composition Project}
+\location{Sept \textbf{2014} - May \textbf{2015} | Kaiserslautern, DE} 
+\newblock  \vspace{-10pt}
+\begin{tightemize}
+\item For a user writing an article, entities suggestions was enhanced and scored according to the context he wrote them in. A score to each suggested entity was calculated using different methods like: Graph search, Entity embedding from text using Word2vec, and Entity embedding using Knowledge Graph embedding.
+\end{tightemize}
+
+
+\bibitem{nile}
+\runsubsection{Nile University} \descript{Research Assistant in \href{http://www.nshg-society.eg.net/index.php/innovation-incubators/153-traffisense}{[Traffisense]}}
+\location{Jan \textbf{2014} - Sept \textbf{2014} | Cairo, EG} 
+\newblock  \vspace{-10pt}
+\begin{tightemize}
+\item Optimizing the compressive tracking algorithm for performance, improved the reinforcement phase between the recognition of cars and tracking them.
+\item Develop an automatic car plates recognition system.
+\end{tightemize}
+
+
+\bibitem{inesc}
+\runsubsection{INESC-ID} \descript{Research Assistant In \href{gaips.inesc-id.pt/mais-s/}{[MAIS+S]} : Multi-Agent Intelligent Survellance System}
+\location{Jan \textbf{2014} - Sept \textbf{2014} | Cairo, EG} 
+\newblock  \vspace{-10pt}
+\begin{tightemize}
+\item Develop a WIFI localization algorithm for indoor location estimation, the algorithm used LSE for estimation based on RSSI signal and access points pre-identified parameters (descriptor, antenna gain, power...).
+\end{tightemize}
+
+\end{thebibliography}

@@ -1,0 +1,185 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modified Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (07/04/2020)
+% Author: Mohamed Radwan 
+% Repo: https://github.com/moaradwan/extensibl-cv
+% Example of easy to extend CV using bibliography references. 
+%
+% Original Author 1
+% Apurv Mishra(https://apurvmishra.xyz)
+% Repository
+% https://github.com/apurvmishra99/Modified-Deedy-Resume
+% Original author of Deedy Resume:
+% Debarghya Das (http://debarghyadas.com)
+% His repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+%
+
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage{eurosym}
+\usepackage{natbib}
+\usepackage{bibentry}
+\usepackage{hanging}
+\usepackage{lipsum}
+\nobibliography*	
+
+
+\newcommand\fullcite[1]{%
+    \smallskip\par\hangpara{1em}{1}\bibentry{#1}\smallskip\par %{indent}{afterline}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Mohamed Atia}{Radwan}{ \urlstyle{same}\
+\href{mailto:mohamedatradwan@gmail.com}{\bf mohamedatradwan@gmail.com} | \bf +4915221486687 | \urlstyle{same}\href{https://github.com/moaradwan}{\bf Github} |
+\urlstyle{same}\href{https://www.linkedin.com/in/mohamedatia/}{\bf Linkedin}} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth} 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\fullcite{zalando_extended}
+\fullcite{cognitev}
+\fullcite{dfki}
+\fullcite{nile}
+\fullcite{inesc}
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PUBLICATIONS}
+
+ \href{https://doi.org/10.1007/s11063-017-9727-y}{\bf Neural Networks Pipeline for Offline Machine Printed Arabic OCR}. Neural Process Letters 48, 769–787. 2018.
+
+ \href{https://doi.org/10.1007/978-3-319-46182-3_20}{\bf Predictive Segmentation Using Multichannel Neural Networks in Arabic OCR System}. ANNPR 2016: Artificial Neural Networks in Pattern Recognition. 2016.
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.31\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{\textbf{Over 10K lines:}}
+Python \textbullet{} Scala \textbullet{} Spark\\ 
+\location{\textbf{Over 1000 lines:}}
+Java \textbullet{} Matlab \textbullet{} R \textbullet{} \LaTeX\  \\
+\location{\textbf{Familiar:}}
+Haskell \textbullet{} Shell \textbullet{} ROS
+\subsection{ML Tools}
+Airflow \textbullet{}  \textbullet{} TensorFlow \textbullet{} SciKit Learn
+\subsection{Cloud Services}
+AWS \textbullet{} Databricks \textbullet{}SageMaker \textbullet{}Google App Engine
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Extra Coursework}
+\descript{UC Berkeley - Online Course}
+\descript{\href{https://fullstackdeeplearning.com/}{Full Stack Deep Learning}} Spring 2021 - [\href{https://verified.cv/en/verify/40335184794745}{Certificate}]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\descript{Ain Shams Uni}
+\descript{MSC IN COMPUTER SCIENCE}
+\location{Sept \textbf{2013 } - Apr \textbf{2017 } | Cairo, EG}
+\sectionsep
+
+\descript{IST LISBON}
+\descript{EXCHANGE STUDENT}
+\descript{MSC IN COMPUTER SCIENCE}
+\location{Sept \textbf{2012 } - Sept \textbf{2012 } | Lisbon, PT}
+\sectionsep
+
+\descript{MANSOURA UNI.}
+\descript{BS IN COMPUTER ENGINEERING}
+\location{\textbf{2005 } - Sept \textbf{2010 } | Cairo, EG}
+\sectionsep
+
+
+
+
+
+\end{minipage}%
+
+\end{document}
+
+
+\end{document}  
+\documentclass[]{article}
